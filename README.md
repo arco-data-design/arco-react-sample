@@ -16,6 +16,7 @@ Instructions for Sample Submission
         * this environment needs to be for python 3.*
     6. install python requirements for the sample:
         * pip install -r backend/requirements.txt
+        * If you receive the error "ERROR: Could not find a version that satisfies the requirement pkg-resources==0.0.0" try removing 'pkg-resources==0.0.0' from the requirements.txt file and run the 'pip install -r backend/requirements.txt' command again
     7. migrate to simple sqlite3 database:
         * python backend/manage.py migrate
     8. run backend server:
